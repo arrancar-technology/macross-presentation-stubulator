@@ -2,7 +2,7 @@ script: make test-app-ci
 deploy:
   provider: heroku
   api_key:
-    secure: g0l9+F/W8oxuwCpr2kVBVR3MP30UYAgTpmgfR+HpTY9mV5YGHjxcA5HEAtmCFnwjUkKyDBw4SxdevLIfp7MybxgIh+1Y7BMGDMWPrcVD3JKB2B/5cCaZXixIBAGuQaLAunIgX281nrlwcnvOvAdihgL7+ljrI+Lb4HmnPyLZ4jc=
+    secure: JUFAMvgsOS8HNBktZ+mhtOv90Jl6HLsKFVqIf7c5P6xaof6EOASrTXkfFTibHb9wH5JRWVuKtCcasgL6zk8WTeV9K2qXW1YPNjbD2Hn1Bfb3AeRWjAUQPOuwDZQsiDhbD9FbG7ht1zFTWn1bQ00F8Evub+M6l9DEi1kAuibQr9o=
   app: macross-presentation-stub01
   on:
     repo: arrancar-technology/macross-presentation-stubulator
